@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "MSH|^~\\&|LGA||||200710261413||QPD^Q21|200710261818|P|2.5|||||CA|ASCII||\rQPD|Q21^Get Patient|1818|~@PID.3.1^I0000172817^~@PID.3.6^^|||||||\rRCP|I|^RD|",
+            "Name": "Query"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [
+        "personJson.lua"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [
+        "IPO.vmd"
+    ],
+    "timestamp": "1495799813",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
