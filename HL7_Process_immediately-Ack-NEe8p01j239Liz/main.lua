@@ -2,6 +2,7 @@
 -- The message processing needs to happen inside the LLP Listener script before the ACKnowledgement message is sent.
 function getApplicationConfig()
    local F = io.open("./configuration/test.xml","r")
+  -- added comment
    local C = F:read("*a")
    F:close()
    local config = xml.parse{data=C}
