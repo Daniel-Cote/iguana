@@ -4,7 +4,7 @@
    description="This channel shows how one can make an HL7 listener interface which does not queue messages.&#xD;&#xA;&#xD;&#xA;The message processing needs to happen inside the LLP translator script before the ACKnowledgement message is sent.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/hl7-process-immediately"
    start_automatically="true"
    logging_level="0"
-   use_message_filter="false">
+   use_message_filter="true">
    <to_channel>
    </to_channel>
    <from_llp_listener
@@ -14,8 +14,8 @@
       unlimited_connection_timeout="false"
       ack_style="trans"
       ack_script="HL7_Process_immediately-Ack-NEe8p01j239Liz"
-      ack_commit_id="4612892154b6b0c6b4fdf8bc0a7cb02dd0fad19e"
-      ack_commit_comment="pas pire"/>
+      ack_commit_id="c370846b8b7a50483f3d302cebc12481309d3ef6"
+      ack_commit_comment="commit comment"/>
    <message_filter
       filter_after_logging="false"
       log_pre_post_filter_message="true"
@@ -24,6 +24,8 @@
       scripted_transformation_configuration_name="default"
       error_handling="0"
       use_translator_filter="true"
-      translator_guid="HL7_Process_immediately-Filter-R3sOhNhT7cxXJK">
+      translator_guid="HL7_Process_immediately-Filter-R3sOhNhT7cxXJK"
+      translator_commit_id="bb3fead7af3ddc5433874b3a7537657db00b3e87"
+      translator_commit_comment="a">
    </message_filter>
 </channel>
